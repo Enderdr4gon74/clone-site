@@ -1,0 +1,48 @@
+:root {
+  --blue: #469AE0;
+  --black: #141414;
+  --orange: #FC9F19;
+}
+
+section {
+  min-height: 5rem;
+}
+img{
+  width: 99.9vw;
+}
+
+.blue-back{
+  background-color: var(--blue);
+}
+
+.orange-back{
+  background-color: var(--orange);
+}
+
+img.img-50 {
+  width: 50vw;
+}
+
+main.container, footer.container{
+  margin: 0;
+  min-width: 99.9vw;
+}
+div.no-padding {
+  padding: 0;
+}
+
+i.big-icon {
+  font-size: 10vw;
+}
+
+i.medium-icon {
+  font-size: 3vw;
+}
+
+p.no-margin-bottom {
+  margin-bottom: 0;
+}
+
+.bg-new-black {
+  background-color: var(--black);
+}
